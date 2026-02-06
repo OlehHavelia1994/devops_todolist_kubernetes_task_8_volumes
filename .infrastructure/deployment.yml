@@ -24,10 +24,10 @@ spec:
           - name: data
             mountPath: /app/data
           - name: config-volume
-            mountPath: /app/config
+            mountPath: /app/configs
             readOnly: true
           - name: secret-volume
-            mountPath: /app/secret
+            mountPath: /app/secrets
             readOnly: true
         resources:
           requests:
